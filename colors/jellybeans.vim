@@ -497,6 +497,8 @@ call s:X("Directory","dad085","","","Yellow","")
 call s:X("ErrorMsg","","902020","","","DarkRed")
 hi! link Error ErrorMsg
 hi! link MoreMsg Special
+hi! link ALEWarning Special
+hi! link ALEError ErrorMsg
 call s:X("Question","65C254","","","Green","")
 
 
